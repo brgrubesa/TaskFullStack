@@ -31,3 +31,34 @@ Run the application:
 
  ```bash
   dotnet run
+
+
+
+# SQL Script: Create Items Table
+
+## Description
+
+This SQL script creates a table named "Items" in the "Task" database. The table contains columns for ID, Name, Category, and Price.
+
+## Database Setup
+
+1. Ensure you have Microsoft SQL Server Management Studio (SSMS) installed.
+2. Open SSMS and connect to your SQL Server instance.
+
+## Usage
+
+1. Open SSMS and connect to the "Task" database.
+2. Copy the SQL script provided below.
+3. Open a new query window in SSMS.
+4. Paste the SQL script into the query window.
+5. Execute the script to create the "Items" table.
+
+## SQL Script
+
+```sql
+CREATE TABLE Items (
+    ID INT PRIMARY KEY,
+    Name NVARCHAR(100),
+    Category NVARCHAR(50),
+    Price DECIMAL(10, 2)
+);
