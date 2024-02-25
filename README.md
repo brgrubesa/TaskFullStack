@@ -9,31 +9,6 @@ TaskFullStack is a sample ASP.NET Core MVC application for managing articles. It
 
 ## Getting Started
 
-**Clone the repository:**
-
-   ```bash
-   git clone https://github.com/your-username/TaskFullStack.git
-
- ```bash
-    cd TaskFullStack
-Restore dependencies and build the project:
-
- ```bash
-  dotnet restore
-  dotnet build
-
-Update the database with Entity Framework Core migrations:
-
- ```bash
-  dotnet ef database update
-
-Run the application:
-
- ```bash
-  dotnet run
-
-
-
 # SQL Script: Create Items Table
 
 ## Description
@@ -62,3 +37,28 @@ CREATE TABLE Items (
     Category NVARCHAR(50),
     Price DECIMAL(10, 2)
 );
+```
+**Clone the repository:**
+
+   ```bash
+   git clone https://github.com/your-username/TaskFullStack.git
+
+ ```bash
+    cd TaskFullStack
+Restore dependencies and build the project:
+
+ ```bash
+  dotnet restore
+  dotnet build
+
+Update the database with Entity Framework Core migrations:
+
+ ```bash
+  dotnet ef database update
+
+Run the application:
+
+ ```bash
+  dotnet run
+
+
